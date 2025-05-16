@@ -4,7 +4,7 @@ CFLAGS = -g
 
 TARGET = maze
 
-SRCS = maze.c
+SRCS = src/maze.c
 
 OBJS = $(SRCS:.c=.o)
 

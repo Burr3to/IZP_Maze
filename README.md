@@ -81,7 +81,7 @@ Program vypisuje súradnice políčok na ceste, každú na nový riadok. Súradn
 
 Použijeme príklad bludiska popísaný v zadaní.
 
-### Vstupný súbor (napr. `inputs/MazeTest.txt`)
+### Vstupný súbor (napr. `inputs/Tests/MazeTest.txt`)
 
 ```text
 6 7
@@ -96,7 +96,7 @@ Použijeme príklad bludiska popísaný v zadaní.
 ### Príklad spustenia a výstupu pre `--rpath 6 1`
 
 ```
-./maze --rpath 6 1 inputs/MazeTest.txt
+./maze --rpath 6 1 inputs/Tests/MazeTest.txt
 6,1
 6,2
 5,2
@@ -134,7 +134,7 @@ Použijeme príklad bludiska popísaný v zadaní.
 ### Príklad spustenia a výstupu pre `--lpath 6 1`
 
 ```
-./maze --lpath 6 1 inputs/MazeTest.txt
+./maze --lpath 6 1 inputs/Tests/MazeTest.txt
 6,1
 6,2
 5,2
